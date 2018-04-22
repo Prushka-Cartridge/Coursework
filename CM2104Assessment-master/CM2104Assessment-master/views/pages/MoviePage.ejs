@@ -1,0 +1,33 @@
+<html>
+
+  <head>
+    <% include ../partials/head %>
+    <title>Movie Page</title>
+    <script type="text/javascript" src="/JS/Login.js"></script>
+
+  </head>
+  <header>
+    <% include ../partials/header %>
+  </header>
+
+  <body onload="yes()">
+
+    <main>
+      <div id = "searchResults">
+        <form action="/" method="POST">
+          <input type="text" placeholder="name" name="username">
+          <input type="password" placeholder="quote" name="password">
+          <input type="text" placeholder="name" name="firstname">
+          <input type="text" placeholder="name" name="surname">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <% include ../partials/footer %>
+    </footer>
+
+  </body>
+
+</html>
